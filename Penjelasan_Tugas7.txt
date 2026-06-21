@@ -1,0 +1,30 @@
+PENJELASAN 
+
+1. Container
+Digunakan sebagai banner promo berbentuk kotak berwarna dengan gradasi
+warna, sudut melengkung (borderRadius), dan teks di dalamnya.
+
+2. GridView
+Menampilkan 6 kategori produk (Makanan, Minuman, Snack, Elektronik,
+Fashion, Kesehatan) dalam tata letak grid 3 kolom menggunakan
+GridView.builder. Setiap item bisa ditekan dan menampilkan notifikasi.
+
+3. ListView
+Menampilkan 3 item paket membership berlabel A, B, dan C (Basic,
+Standard, Premium) menggunakan ListView statis berisi ListTile.
+
+4. ListView.builder
+Menampilkan daftar produk terlaris yang diambil dari array data
+(List of Map) secara dinamis menggunakan itemBuilder, cocok untuk
+data yang jumlahnya bisa berubah-ubah.
+
+5. ListView.separated
+Menampilkan daftar riwayat transaksi, mirip ListView.builder tetapi
+ditambah garis pembatas (Divider) di antara setiap item lewat
+separatorBuilder.
+
+6. Stack
+Menampilkan kartu promo produk dengan tampilan bertumpuk: layer
+gambar/background, badge diskon di pojok, dan overlay nama produk
+serta harga di bagian bawah, semuanya ditumpuk menggunakan Stack
+dan Positioned.
